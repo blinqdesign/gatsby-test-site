@@ -3,3 +3,17 @@
     max-width:500px;
     font-family:sans-serif;
 }
+
+h1 {
+    color:purple;
+    font-weight:700;
+}
+
+ul li {
+    display:inline-block;
+    margin-right:20px;
+}
+
+a {
+    color:green;
+}
