@@ -3,12 +3,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `I'm Bart Simpson, Who The Hell Are You?`,
+    title: `Stop right there criminal scum`,
     
   },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-mdx",
     {
       resolve: "gatsby-source-filesystem",
       options: {
