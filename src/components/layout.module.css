@@ -4,16 +4,29 @@
     font-family:sans-serif;
 }
 
-h1 {
+.heading {
     color:purple;
     font-weight:700;
 }
 
-ul li {
-    display:inline-block;
-    margin-right:20px;
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
 }
 
-a {
-    color:green;
+.nav-link-item {
+    padding-right: 2rem;
+}
+
+.nav-link-text {
+    color: green;
+}
+
+
+.site-title {
+    font-weight:700;
+    color:peru;
+    font-size:3rem;
+    margin:3rem 0;
 }
